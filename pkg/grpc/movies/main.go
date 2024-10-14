@@ -2,7 +2,7 @@ package grpc
 
 import (
 	"context"
-	"github.com/Olegsuus/MovieRest/internal/models"
+	"github.com/Olegsuus/MoviesRest/internal/models"
 )
 
 type MovieRepository struct {

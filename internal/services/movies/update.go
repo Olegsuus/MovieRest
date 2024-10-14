@@ -3,7 +3,7 @@ package services
 import (
 	"context"
 	"fmt"
-	"github.com/Olegsuus/MovieRest/internal/models"
+	"github.com/Olegsuus/MoviesRest/internal/models"
 	"log/slog"
 )
 

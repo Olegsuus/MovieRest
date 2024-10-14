@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"context"
-	"github.com/Olegsuus/MovieRest/internal/models"
+	"github.com/Olegsuus/MoviesRest/internal/models"
 )
 
 type MovieHandlers struct {
@@ -10,7 +10,7 @@ type MovieHandlers struct {
 }
 
 type MovieHandlersProvider interface {
-	Add(ctx context.Context, movie *AddMovieDTO) (string, error)
+	Add(ctx context.Context, movieDTO *AddMovieDTO) (string, error)
 	Get(ctx context.Context, id string) (*models.Movie, error)
 	GetMany(ctx context.Context) ([]*models.Movie, error)
 	Remove(ctx context.Context, id string) error

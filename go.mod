@@ -1,9 +1,10 @@
-module "github.com/Olegsuus/MovieRest"
+module github.com/Olegsuus/MoviesRest
 
 go 1.23.1
 
 require (
 	github.com/Olegsuus/MovieProto v1.0.3
+	github.com/Olegsuus/MovieRest v0.0.0-20241014154442-c7471f93b52a
 	github.com/gin-gonic/gin v1.10.0
 	github.com/spf13/viper v1.19.0
 	go.mongodb.org/mongo-driver v1.17.1

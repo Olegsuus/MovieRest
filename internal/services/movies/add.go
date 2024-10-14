@@ -3,7 +3,7 @@ package services
 import (
 	"context"
 	"fmt"
-	handlers "github.com/Olegsuus/MovieRest/internal/handlers/movies"
+	handlers "github.com/Olegsuus/MoviesRest/internal/handlers/movies"
 	"log/slog"
 )
 

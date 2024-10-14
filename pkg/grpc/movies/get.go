@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	moviepb "github.com/Olegsuus/MovieProto/gen/models/movie"
-	"github.com/Olegsuus/MovieRest/internal/models"
+	"github.com/Olegsuus/MoviesRest/internal/models"
 	"go.mongodb.org/mongo-driver/mongo"
 	"log"
 )

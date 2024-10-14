@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/Olegsuus/MovieRest/internal/models"
+	"github.com/Olegsuus/MoviesRest/internal/models"
 	"go.mongodb.org/mongo-driver/mongo"
 	"log/slog"
 )

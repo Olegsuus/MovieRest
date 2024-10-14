@@ -2,11 +2,11 @@ package app
 
 import (
 	"fmt"
-	"github.com/Olegsuus/MovieRest/internal/config"
-	handlers "github.com/Olegsuus/MovieRest/internal/handlers/movies"
-	"github.com/Olegsuus/MovieRest/internal/handlers/routers"
-	services "github.com/Olegsuus/MovieRest/internal/services/movies"
 	grpc "github.com/Olegsuus/MovieRest/pkg/grpc/movies"
+	"github.com/Olegsuus/MoviesRest/internal/config"
+	handlers "github.com/Olegsuus/MoviesRest/internal/handlers/movies"
+	"github.com/Olegsuus/MoviesRest/internal/handlers/routers"
+	services "github.com/Olegsuus/MoviesRest/internal/services/movies"
 	"github.com/gin-gonic/gin"
 	"log/slog"
 	"os"

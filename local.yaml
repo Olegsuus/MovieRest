@@ -1,5 +1,5 @@
 app:
-  name: "MovieRest"
+  name: "MoviesRest"
   env: "development"
   server:
     port: 8080
