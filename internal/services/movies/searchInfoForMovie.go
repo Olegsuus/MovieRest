@@ -1,9 +1,9 @@
 package services
 
 import (
-	"MovieRest/internal/models"
 	"encoding/json"
 	"fmt"
+	"github.com/Olegsuus/MovieRest/internal/models"
 	"io/ioutil"
 	"log/slog"
 	"net/http"

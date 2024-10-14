@@ -1,10 +1,10 @@
 package services
 
 import (
-	"MovieRest/internal/models"
 	"context"
 	"errors"
 	"fmt"
+	"github.com/Olegsuus/MovieRest/internal/models"
 	"go.mongodb.org/mongo-driver/mongo"
 	"log/slog"
 )

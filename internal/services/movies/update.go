@@ -1,9 +1,9 @@
 package services
 
 import (
-	"MovieRest/internal/models"
 	"context"
 	"fmt"
+	"github.com/Olegsuus/MovieRest/internal/models"
 	"log/slog"
 )
 

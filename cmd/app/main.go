@@ -1,8 +1,8 @@
 package main
 
 import (
-	"MovieRest/internal/app"
-	"MovieRest/internal/config"
+	"github.com/Olegsuus/MovieRest/internal/app"
+	"github.com/Olegsuus/MovieRest/internal/config"
 	"log"
 )
 

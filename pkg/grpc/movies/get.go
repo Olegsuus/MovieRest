@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	"MovieRest/internal/models"
 	"context"
 	"errors"
 	"fmt"
 	moviepb "github.com/Olegsuus/MovieProto/gen/models/movie"
+	"github.com/Olegsuus/MovieRest/internal/models"
 	"go.mongodb.org/mongo-driver/mongo"
 	"log"
 )

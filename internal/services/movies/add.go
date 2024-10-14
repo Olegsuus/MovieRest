@@ -3,10 +3,11 @@ package services
 import (
 	"context"
 	"fmt"
+	handlers "github.com/Olegsuus/MovieRest/internal/handlers/movies"
 	"log/slog"
 )
 
-func (s *MoviesService) Add(ctx context.Context, movieDTO *movies.AddMovieDTO) (string, error) {
+func (s *MoviesService) Add(ctx context.Context, movieDTO *handlers.AddMovieDTO) (string, error) {
 	const op = "services.Add"
 
 	s.l.With(slog.String("op", op))

@@ -1,10 +1,10 @@
 package grpc
 
 import (
-	"MovieRest/internal/models"
 	"context"
 	"fmt"
 	moviepb "github.com/Olegsuus/MovieProto/gen/models/movie"
+	"github.com/Olegsuus/MovieRest/internal/models"
 	"log"
 )
 

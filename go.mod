@@ -1,4 +1,4 @@
-module MovieRest
+module "github.com/Olegsuus/MovieRest"
 
 go 1.23.1
 

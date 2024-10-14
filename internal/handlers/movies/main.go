@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"MovieRest/internal/models"
 	"context"
+	"github.com/Olegsuus/MovieRest/internal/models"
 )
 
 type MovieHandlers struct {

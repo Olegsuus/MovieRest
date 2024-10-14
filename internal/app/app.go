@@ -1,12 +1,12 @@
 package app
 
 import (
-	"MovieRest/internal/config"
-	handlers "MovieRest/internal/handlers/movies"
-	"MovieRest/internal/handlers/routers"
-	services "MovieRest/internal/services/movies"
-	grpc "MovieRest/pkg/grpc/movies"
 	"fmt"
+	"github.com/Olegsuus/MovieRest/internal/config"
+	handlers "github.com/Olegsuus/MovieRest/internal/handlers/movies"
+	"github.com/Olegsuus/MovieRest/internal/handlers/routers"
+	services "github.com/Olegsuus/MovieRest/internal/services/movies"
+	grpc "github.com/Olegsuus/MovieRest/pkg/grpc/movies"
 	"github.com/gin-gonic/gin"
 	"log/slog"
 	"os"

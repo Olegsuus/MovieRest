@@ -1,7 +1,7 @@
 package routers
 
 import (
-	handlers "MovieRest/internal/handlers/movies"
+	handlers "github.com/Olegsuus/MovieRest/internal/handlers/movies"
 	"github.com/gin-gonic/gin"
 )
 
