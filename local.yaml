@@ -1,0 +1,15 @@
+app:
+  name: "MovieRest"
+  env: "development"
+  server:
+    port: 8080
+
+grpc:
+  address: "localhost 50051"
+
+tmdb:
+  api_key: "f4d65d0a865879453d9c7421ae7a67bd"
+
+log:
+  level: "info"
+  format: "text"
